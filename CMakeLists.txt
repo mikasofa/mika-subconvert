@@ -1,5 +1,5 @@
 project(mika_subconvert)
-CMAKE_MINIMUM_REQUIRED(VERSION 3.23)
+CMAKE_MINIMUM_REQUIRED(VERSION 3.19)
 # From original subconvert
 
 SET(BUILD_TARGET_NAME ${PROJECT_NAME})
