@@ -1,0 +1,10 @@
+^C:\USERS\ZHETENGTIAO\CLIONPROJECTS\MIKA-SUBCONVERT\CMAKELISTS.TXT
+setlocal
+C:\Users\Zhetengtiao\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/Zhetengtiao/CLionProjects/mika-subconvert -BC:/Users/Zhetengtiao/CLionProjects/mika-subconvert/cmake-build-release-mingw --check-stamp-file C:/Users/Zhetengtiao/CLionProjects/mika-subconvert/cmake-build-release-mingw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

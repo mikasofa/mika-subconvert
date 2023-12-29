@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\generator\config\nodemanip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\generator\config\ruleconvert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\generator\config\subexport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\generator\template\templates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\handler\interfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\handler\multithread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\handler\upload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\handler\webget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\handler\settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\parser\infoparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\parser\subparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\script\cron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\script\script_quickjs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\server\webserver_libevent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\base64\base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\codepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\md5\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\regexp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\src\utils\urlencode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Zhetengtiao\CLionProjects\mika-subconvert\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4A86FCD2-E8D3-3915-9E03-739CCF5B735C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
