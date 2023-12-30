@@ -47,7 +47,7 @@ make -j2
 #g++ -o base/subconverter $(find CMakeFiles/subconverter.dir/src/ -name "*.o")  -static -lpcre2-8 -levent -lyaml-cpp -L/usr/lib64 -lcurl -lmbedtls -lmbedcrypto -lmbedx509 -lz -l:quickjs/libquickjs.a -llibcron -O3 -s
 
 cd base
-chmod +rx subconverter
+#chmod +rx subconverter
 chmod +r ./*
 cd ..
 mv base subconverter

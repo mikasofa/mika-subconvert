@@ -56,7 +56,7 @@ make -j8
 #c++ -Xlinker -unexported_symbol -Xlinker "*" -o base/subconverter -framework CoreFoundation -framework Security $(find CMakeFiles/subconverter.dir/src/ -name "*.o") $(find . -name "*.a") -lcurl -O3
 
 cd base
-chmod +rx subconverter
+#chmod +rx subconverter
 chmod +r ./*
 cd ..
 mv base subconverter
