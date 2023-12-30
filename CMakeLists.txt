@@ -39,7 +39,6 @@ IF(NOT BUILD_STATIC_LIBRARY)
             src/generator/config/ruleconvert.cpp
             src/generator/config/subexport.cpp
             src/generator/template/templates.cpp
-            src/lib/wrapper.cpp
             src/parser/subparser.cpp
             src/utils/base64/base64.cpp
             src/utils/codepage.cpp
