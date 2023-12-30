@@ -5,13 +5,9 @@
 
 #include "../../handler/settings.h"
 #include "../../handler/webget.h"
-#include "../../parser/config/proxy.h"
 #include "../../parser/infoparser.h"
 #include "../../parser/subparser.h"
 #include "../../script/script_quickjs.h"
-#include "../../utils/file_extra.h"
-#include "../../utils/logger.h"
-#include "../../utils/map_extra.h"
 #include "../../utils/network.h"
 #include "../../utils/regexp.h"
 #include "../../utils/urlencode.h"

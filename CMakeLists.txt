@@ -36,9 +36,44 @@ int main(){std::to_string(0);}
 IF(NOT BUILD_STATIC_LIBRARY)
 
     ADD_LIBRARY(${BUILD_TARGET_NAME} SHARED
+            src/generator/config/ruleconvert.cpp
+            src/generator/config/subexport.cpp
+            src/generator/template/templates.cpp
+            src/lib/wrapper.cpp
+            src/parser/subparser.cpp
+            src/utils/base64/base64.cpp
+            src/utils/codepage.cpp
+            src/utils/logger.cpp
+            src/utils/md5/md5.cpp
+            src/utils/network.cpp
+            src/utils/regexp.cpp
+            src/utils/string.cpp
+            src/utils/urlencode.cpp
+            src/generator/config/nodemanip.cpp
+            src/generator/config/ruleconvert.cpp
+            src/generator/config/subexport.cpp
+            src/generator/template/templates.cpp
             src/handler/interfaces.cpp
+            src/handler/multithread.cpp
+            src/handler/upload.cpp
+            src/handler/webget.cpp
+            src/handler/settings.cpp
+            src/main.cpp
             src/parser/infoparser.cpp
             src/parser/subparser.cpp
+            src/script/cron.cpp
+            src/script/script_quickjs.cpp
+            src/server/webserver_libevent.cpp
+            src/utils/base64/base64.cpp
+            src/utils/codepage.cpp
+            src/utils/file.cpp
+            src/utils/logger.cpp
+            src/utils/md5/md5.cpp
+            src/utils/network.cpp
+            src/utils/regexp.cpp
+            src/utils/string.cpp
+            src/utils/system.cpp
+            src/utils/urlencode.cpp
     )
     TARGET_INCLUDE_DIRECTORIES(${BUILD_TARGET_NAME} PRIVATE src)
     TARGET_LINK_DIRECTORIES(${BUILD_TARGET_NAME} PRIVATE ${CMAKE_SOURCE_DIR})
